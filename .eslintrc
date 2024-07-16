@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@sanity/eslint-config-studio",
+    "plugin:eslint-comments/recommended"
+  ],
+  "plugins": [
+    "cpk-internal"
+  ],
+  "rules": {
+    "cpk-internal/require-image-alt-text": "error",
+    "eslint-comments/require-description": "error"
+  }
+}
